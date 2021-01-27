@@ -1,0 +1,37 @@
+DATA 000 010 020 130 140
+DATA 150 160 070 080 090
+DATA 001 011 121 131 141
+DATA 151 161 171 081 091
+DATA 002 012 122 132 142
+DATA 152 162 172 082 092
+DATA 003 013 023 033 143
+DATA 153 063 073 083 093
+DATA 004 014 024 034 144
+DATA 154 064 074 084 094
+DATA 005 015 025 135 145
+DATA 155 165 075 085 095
+DATA 006 116 126 136 146
+DATA 156 166 176 186 096
+DATA 107 117 027 037 147
+DATA 157 067 077 187 197
+DATA 108 018 028 138 048
+DATA 058 168 078 088 198
+DATA 109 019 029 139 049
+DATA 059 169 079 089 199
+MARK INIT
+COPY 1 CO
+COPY 55 GX
+COPY 90 GY
+SEEK -9999
+
+MARK SPRITE 
+COPY F GP 
+TEST EOF
+FJMP SPRITE
+
+
+Retrieved the sprite data from google in order to actually create a sprite that I could control. However, this line of code only creates the sprite on the
+console. It does not give the user control. I experimented with it and whenever I tried to actually control the sprite, it would move 1 pixel every click.
+I looked online and all of the code I could find was way too advanced and did not explain how to just move the sprite in the most basic way. If I had more
+time I could look into redshift more and possibly try to understand how the code works because everything you find online has what seems like hundreds of 
+lines of code.
