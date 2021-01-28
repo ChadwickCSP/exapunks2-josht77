@@ -30,6 +30,7 @@ TEST EOF
 FJMP SPRITE
 
 
+NOTES
 Retrieved the sprite data from google in order to actually create a sprite that I could control. However, this line of code only creates the sprite on the
 console. It does not give the user control. I experimented with it and whenever I tried to actually control the sprite, it would move 1 pixel every click.
 I looked online and all of the code I could find was way too advanced and did not explain how to just move the sprite in the most basic way. If I had more
